@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+  
+        <title>Praktikum 3</title>
+        
+    </head>
+    
+    <body style="background-color:silver;">
+    <form action="hasil">
+    
+    <fieldset>
+        <legend>
+            
+        
+            <h1 style="font-family:fantasy;color:hotpink"> aespa Lightstick</h1>
+            
+        </legend>
+        
+        <form action="pemweb" method="post">
+        
+        <img src="https://i.ebayimg.com/images/g/OrsAAOSw65RjHTqD/s-l1600.png" width=200 alt="Lightstick">
+        
+         <u><h2 style="font-family:fantasy;color:hotpink">Costumer Details</h2></u>
+        
+        <label style="font-family:fantasy;">Name : </label>
+        <input type="text" id="nama">
+        
+        <br>
+        <br>
+        
+         <label style="font-family:fantasy;">Address : </label>
+        <input type="text" id="alamat">
+        
+        <br>
+        <br>
+        
+         <label style="font-family:fantasy;"> No.hp : </label>
+        <input type="number" id="phone">
+         
+        
+         
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <img src="https://i.ebayimg.com/images/g/rWkAAOSwSl9jHU8o/s-l1600.png" width=250 alt="design">
+        
+        <u>
+        <h2 style="font-family:fantasy;color:hotpink">Choose Your Member Design</h2>
+        </u>
+        
+        <input type="radio" id="member" name="design" value="design">
+        <label for="member">Karina</label>
+        
+        <br>
+        
+           <input type="radio" id="member" name="design" value="design">
+        <label for="member">Giselle</label>
+        
+        <br>
+        
+           <input type="radio" id="member" name="design" value="design">
+        <label for="member">Winter</label>
+        
+        <br>
+        
+           <input type="radio" id="member" name="design" value="design">
+        <label for="member">Ningning</label>
+        
+        <br>
+        <br>
+        
+       <u>
+       <h2 style="font-family:fantasy; color:hotpink;">Payment</h2>
+       </u>
+       
+       <label for="payment"></label>
+       <select id="payment" name="payment">
+           <option value="BCA">BCA</option>
+           <option value="BRI">BRI</option>
+           <option value="MANDIRI">MANDIRI</option>
+           <option value="allobank">ALLOBANK</option>
+           <option value="COD">COD</option>
+           
+           <br>
+           <br>
+        
+           
+           <input type="submit" value="Checkout">
+           
+       </select>
+       <br>
+       
+        
+        
+        
+        
+        
+        
+    </fieldset>
+        
+    </body>
+</html>
