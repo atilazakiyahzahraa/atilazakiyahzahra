@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Document</title>    
+    <style>
+        body{
+            background-color:pink;
+            
+            }
+            
+        
+                
+            
+            
+            .footer{padding-top: 50px;
+            background: #343434;
+                
+            }
+            
+           
+           .container{
+           background-color:pink;
+           widht:200px;
+           margin:auto;
+           display: flex;
+           justfy-content:center; 
+        
+           }
+           
+           .footer-content1{width:33%;
+           margin: auto;
+            padding: 5px;
+           }
+           
+           
+           .footer-content2{
+        
+           width:33%;
+           padding:5px;
+           margin:auto;
+           }
+           
+           
+          
+           
+           
+    </style>
+ </head>
+ <body>
+    
+    
+    
+    <table style="width:100%;">
+        <tbody>
+            <tr>
+                <td>
+                    <img width="175px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGQpB5aTda5RU5WVNkkrkrIirXkqy50afDw&usqp=CAU "/>
+                </td>
+                
+                <td>
+                    <h1 style="font-family:courier;">Profil </h1>
+                    <br>
+                    <p>Nama: Atila Zakiyah Zahrah</p>
+                    <p>Alamat :Bogor </p>
+                    <p>Email: zahraatilaa2112@gmail.com</p>
+                    
+                </td>
+                
+                <td>
+                    <h2>categories</h2>
+                    <p>
+                        <a href="https://youtube.com/watch?v=vGuJuW0bDWA&si=WPhZj5ZRYg_ShH5H">hobby</a>
+                    </p>
+                    
+                    <p>
+                        <a href="https://instagram.com/dd.bblue?igshid=OGQ5ZDc2ODk2ZA==">kontak</a>
+                    </p>
+                    <p>
+                        <a href="https://instagram.com/dd.bblue?igshid=OGQ5ZDc2ODk2ZA==">apapun</a>
+                    </p>
+
+
+                </td>
+                
+    
+            </tr>
+            
+        </body>
+    </table>
+    
+    <!--main content-->
+    <br>
+ <p>I always knew you were the best the coolest boy I know
+so prettier than all the rest the star of my show so many times I wished you'd be the one for me i never knew it'd get like this, girl, what you do to me you're who I'm thinking of boy, you ain't my runner-up
+And no matter what you're always number one</p>
+ 
+ <p>My prized possession one and only adore ya boy, I want ya the one I can't live without, that's you, that's you</p>
+    <br>
+    
+    
+    
+    <br>
+        
+        <!--HEADER MENGGUNAKAN LAYOUT CSS-->
+        <footer>
+        
+        
+        
+        <div class="container">
+        
+        <div class="footer-content1">
+        
+        <iframe src="https://www.youtube.com/embed/bg51A8CLgmM?si=Z0ZnF3lbjGc0hx4D" width:200px>   </iframe>
+            
+        </div>
+        
+        <div class="footer-content2">
+            <iframe src="https://static.wikia.nocookie.net/chibi-maruko-chan/images/c/c2/Maruko_artwork_series2_01.png/revision/latest?cb=20180902030341">foto</iframe>
+        </div>
+        
+        
+        </div>
+        </footer>
+        
+    
+        
+            
+    </body>
+</html
