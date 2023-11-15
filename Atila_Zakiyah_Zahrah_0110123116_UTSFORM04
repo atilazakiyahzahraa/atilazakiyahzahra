@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PRAKTIKUM UTS</title>
+        <style>
+            h2 {
+                text-align:center;
+            }
+            
+            }
+            
+            label{
+                font-weight:bold;
+            }
+            
+            body{
+                background-color:beige;
+            }
+            
+            
+            .form-group{
+                margin-bottom:10px;
+            }
+    
+            
+        </style>
+    </head>
+    <body>
+    
+        <h2>SISTEM INFORMASI SEMINAR TUGAS AKHIR - SISTA</h2>
+        </br>
+        <div>
+            <a href="#home">Home</a> >
+            <a href="#jadwal">Jadwal</a> >
+            <a href="#detail jadwal">Detail Jadwal</a> >
+            <a text="#daftar jadwal">Daftar Peserta</a>
+        </div>
+        </br>
+        <p>Mahasiswa Seminar : Diego Armando (0102002)</p>
+        <p>Judul : Rancang Bangun Aplikasi Seminar Tugas Akhir Berbasis Web Menggunakan MVC Framework</p>
+        <p>Waktu : Senin, 24 Januari 2021 10:00</p>
+        </br>
+        
+        <fieldset>
+            <legend>
+                <h2>Form Peserta Seminar</h2>
+             </legend>
+                <form action="" method="post">
+                <div class="form-group">
+                    <label for="nim">NIM :</label>
+                    <input type="text" id="nim">
+                </div>
+                
+                 <div class="form-group">
+                    <label for="nama">Nama :</label>
+                    <input type="text" id="nama">
+                </div>
+                
+                 <div class="form-group">
+                    <label for="prodi">Prodi :</label>
+                    <select type="select" id="prodi">
+                     <option value="si">Sistem Informasi</option>
+           <option value="ti">Teknik Informatika</option>
+           <option value="bd">Bisnis Digital</option>
+                </div>
+                
+                <div class="form-group">
+                    <label for="program">Program :</label>
+                    <input type="radio" id="program">D3</input>
+                    <input type="radio">S1 Reguler</input>
+                    <input type="radio">S1 Fast Track</input>
+                    <input type="radio">S2</input>
+                </div>
+                
+                    <input type="submit" value="Daftar">
+            </form>
+        </fieldset>
+    </body>
+</html>
