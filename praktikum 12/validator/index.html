@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="nama" placeholder="nama"> <span class="WARNING" style="color: red;">NAMA TIDAK BOLEH KOSONG</span>
+    <br>
+    <input type="email" id="email" placeholder="email"> <span class="WARNING" style="color: red;"> EMAIL TIDAK BOLEH SALAH</span>
+    <br>
+    <input type="text" id="tujuan-keberangkatan" placeholder="tujuan-keberangkatan"> <span class="WARNING" style="color: red;">SALAH</span> 
+    <br>
+    <input type="time" id="jam-keberangkatan" placeholder="jam-keberangkatan"> <span class="WARNING" style="color: red;">SALAH</span>
+    <br>
+    <input type="number" id="jumlah-tiket" placeholder="jumlah-tiket"> <span class="WARNING" style="color: red;">JUMLAH SALAH</span> 
+    <br>
+    <input type="submit" id="submit" value="masukkan yang benar" onclick="validasi1()">
+
+    <script>
+        let nama = document.getElementById("nama");
+        let email = document.getElementById("email");
+        let tujuan = document.getElementById("tujuan-keberangkatan");
+        let jam =  document.getElementById("jam-keberangkatan");
+        let tiket = document.getElementById("jumalh-tiket");
+        let span = document.getElementsByClassName("WARNING");
+
+        function validasi1(){
+            if (nama.value ==""){
+                span[0].style.visibility = "visible"
+            }
+            if (email.value ==""){
+                span[1].style.visibility = "visible"
+            }
+            if (tujuan.value == ""){
+                span[2].style.visibility =  "visible"
+            }
+            if (jam.value == ""){
+                span[3].style.visibility = "visible"
+            }
+            if (tiket.value == ""){
+                span[4].style.visibility = " visible"
+            }
+        }
+    </script>
+
+</body>
+</html>

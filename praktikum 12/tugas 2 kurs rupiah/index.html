@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function hitung(){
+            let nilai = document.getElementById("nilai").value;
+            let valas = document.getElementById("valas");
+            if(valas.value == "us"){
+                let dollar = 9915;
+                let jumlah = nilai * dollar;
+                document.getElementById("hasil").value = jumlah;
+            }
+
+            else if(valas.value == "singapur"){
+                let sgpr = 13472;
+                let jumlah = nilai * sgpr;
+                document.getElementById("hasil").value = jumlah;
+            }
+            else if(valas.value == "malaysia"){
+                let ringgit = 874;
+                let jumlah = nilai * ringgit;
+                document.getElementById("hasil").value = jumlah;
+            }
+            else if(valas.value == "jepang"){
+                let yen = 120;
+                let jumlah = nilai * yen;
+                document.getElementById("hasil").value = jumlah;
+            }
+            else if(valas.value == "eropa"){
+                let euro = 15888;
+                let jumlah = nilai * euro;
+                document.getElementById("hasil").value = jumlah;
+            }
+            else if(valas.value == "arab saudi"){
+                let riyal = 3592;
+                let jumlah = nilai * riyal ;
+                document.getElementById("hasil").value = jumlah;
+            }
+        }
+    </script>
+</head>
+<body>
+    <fieldset>
+        <legend>Krus Rupiah - Mata Uang Asing</legend>
+        <table style="border: 1 solid grey"></table>
+        <tr>
+            <th>Masukkan Nominal</th>
+            <th>Valas</th>
+            <th>Nilai Rupiah</th>
+        </tr>
+        <tr>
+            <td><input type="text" id="nilai" onchange="hitung()"></td>
+            <td><select name="" id="valas" onchange="hitung()">
+            <option value="0">Pilih Mata Uang</option>
+            <option value="us">Dollar US</option>
+            <option value="singapur">Dollar Singapore</option>
+            <option value="malaysia">Ringgit Malaysia</option>
+            <option value="jepang">Yen Jepang</option>
+            <option value="eropa">Euro</option>
+            <option value="arab saudi">Riyal Arab Saudi</option>
+            </select></td>
+            <td><input type="text" id="hasil"></td>
+        </tr>
+    </fieldset>
+</body>
+</html>
